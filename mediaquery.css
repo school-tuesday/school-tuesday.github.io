@@ -1,0 +1,22 @@
+@media only screen and (min-width:601px) and (max-width:1024px) {
+    /*tablet用のcssを記述*/
+    
+}
+   
+
+@media screen and (max-width:600px) {
+    /*スマホ用のcssを記述*/
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .characters{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .open_button{
+        width: 45%;
+    }
+}
