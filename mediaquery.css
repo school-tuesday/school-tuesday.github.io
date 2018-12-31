@@ -19,4 +19,12 @@
     .open_button{
         width: 45%;
     }
+    .movie{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .movie_desc{
+        width: 90%;
+        margin: 10px auto;
+    }
 }

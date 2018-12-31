@@ -4,20 +4,25 @@
 }
 
 @font-face {
-    font-family: 'yugoth';
-    src: url(../font/YuGoth.ttf) format('opentype');
+    font-family: 'makinas';
+    src: url(../font/makinas.otf) format('opentype');
 }
 
 @font-face {
-    font-family: 'makinas';
-    src: url(../font/makinas.otf) format('opentype');
+font-family: 'kurobara';
+    src: url(../font/kurobara-cinderella.ttf) format('opentype');
+}
+
+@font-face{
+    font-family: 'charle';
+    src: url(../font/CharlemagneStd-Bold.otf) format('opentype');
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'lablife', 'yugoth';
-    font-size: 20px;
+    font-family: 'charle', 'kurobara';
+    letter-spacing: 5px;
 }
 
 html,
@@ -112,10 +117,6 @@ body {
     text-align: center;
 }
 
-.caption > h3 {
-    font-family: "makinas";
-}
-
 .modal_wrap input {
     display: none;
 }
@@ -155,19 +156,19 @@ body {
 }
 
 .chara_desc{
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-left: 20px;
 }
 
 .modal_content h2{
     font-size: 5vw;
-    font-family: 'makinas';
     margin-top: 10%;
     margin-bottom: 20%;
 }
 
 .modal_content p{
-font-size: 1vw;
+font-size: 1.5vw;
 }
 
 .close_button {
@@ -221,6 +222,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     letter-spacing: 0.1em;
+    font-size: 2vw;
 }
 
 .character {
@@ -239,7 +241,6 @@ h1 {
 }
 
 .character_desc h2 {
-    font-family: makinas;
     font-size: 50px;
     text-align: center;
     margin: 15% 0;
@@ -270,6 +271,7 @@ h1 {
 
 .movie_desc {
     margin-left: 10%;
+    font-size: 1.5vw;
 }
 
 @keyframes flash {
