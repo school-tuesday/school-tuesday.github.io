@@ -9,13 +9,18 @@
 }
 
 @font-face {
-font-family: 'kurobara';
+    font-family: 'kurobara';
     src: url(../font/kurobara-cinderella.ttf) format('opentype');
 }
 
-@font-face{
+@font-face {
     font-family: 'charle';
     src: url(../font/CharlemagneStd-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'yugoth';
+    src: url(../font/YuGothR.ttf) format('opentype');
 }
 
 * {
@@ -73,7 +78,7 @@ body {
 }
 
 .content {
-/*
+    /*
     width: 23%;
     margin-left: 1%;
     margin-top: 20px;
@@ -156,20 +161,21 @@ body {
     transition: 0.5s;
 }
 
-.modal_content img{
+.modal_content img {
     width: 45%;
     float: left;
     margin-left: 3%;
 }
 
-.modal_content h2{
+.modal_content h2 {
     font-size: 5vw;
     margin-top: 10%;
     margin-bottom: 20%;
 }
 
-.modal_content p{
-font-size: 1.5vw;
+.modal_content p {
+    font-family: 'yugoth';
+    font-size: 1.5vw;
 }
 
 .close_button {
@@ -245,22 +251,26 @@ h1 {
 
 .movie,
 .movie_desc {
-    width: 45%;
+    width: 46%;
     float: left;
 }
 
 .movie_desc {
     margin-left: 5%;
-    margin-right: 5%;
-    font-size: 1.5vw;
+    margin-right: 3%;
+    font-size: 1.3vw;
 }
 
-footer{
+.movie_desc p{
+   font-family: 'yugoth';
+}
+
+footer {
     margin-top: 20px;
     text-align: center;
 }
 
-footer p{
+footer p {
     display: inline-block;
     border-top: 1px solid #000000;
     padding-top: 30px;
