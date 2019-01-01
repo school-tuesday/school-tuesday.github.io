@@ -146,8 +146,9 @@ body {
 .modal_content {
     position: relative;
     align-self: center;
-    width: 60%;
+    width: 70%;
     max-width: 800px;
+    height: 85%;
     padding: 30px 30px 15px;
     box-sizing: border-box;
     background: #fff;
@@ -155,10 +156,10 @@ body {
     transition: 0.5s;
 }
 
-.chara_desc{
-    width: 40%;
+.modal_content img{
+    width: 45%;
     float: left;
-    margin-left: 20px;
+    margin-left: 3%;
 }
 
 .modal_content h2{
@@ -225,27 +226,6 @@ h1 {
     font-size: 2vw;
 }
 
-.character {
-    width: 50%;
-    float: left;
-}
-
-.character img {
-    width: 50%;
-    float: left;
-}
-
-.character_desc {
-    width: 50%;
-    float: left;
-}
-
-.character_desc h2 {
-    font-size: 50px;
-    text-align: center;
-    margin: 15% 0;
-}
-
 .part {
     width: 90%;
     margin: 30px auto;
@@ -270,7 +250,8 @@ h1 {
 }
 
 .movie_desc {
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 1.5vw;
 }
 
