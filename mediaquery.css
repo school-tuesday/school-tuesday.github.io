@@ -13,7 +13,7 @@
         font-size: 15px;
     }
     .characters{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
     .open_button{
@@ -24,7 +24,7 @@
         margin: 10px auto;
     }
     .movie_desc{
-        width: 90%;
+        width: 100%;
         margin: 10px auto;
     }
     .modal_content img{
