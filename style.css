@@ -271,6 +271,7 @@ footer {
 }
 
 footer p {
+    font-size: 15px;
     display: inline-block;
     border-top: 1px solid #000000;
     padding-top: 30px;
